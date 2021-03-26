@@ -25,60 +25,8 @@ hs.src = ('//s10.histats.com/js15_as.js');
 	<header>
 		<h1><a href="index.html">MyCooking</a></h1>
 		<p><b>Delicious, fresh</b> and <mark>tasty</mark>.</p>
-		<style type="text/css">
-#gb{
-position:fixed;
-top:10px;right:10px;
-z-index:+1000;
-}
-* html #gb{position:relative;}
-
-
-.gbcontent{
-float:right;
-border:2px solid #A5BD51;
-background:#ffffff;
-padding:10px;
-}
-</style>
-
-<script type="text/javascript">
-function showHideGB(){
-var gb = document.getElementById("gb");
-var w = gb.offsetWidth;
-gb.opened ? moveGB(0, 30-w) : moveGB(20-w, 0);
-gb.opened = !gb.opened;
-}
-function moveGB(x0, xf){
-var gb = document.getElementById("gb");
-var dx = Math.abs(x0-xf) > 10 ? 5 : 1;
-var dir = xf>x0 ? 1 : -1;
-var x = x0 + dx * dir;
-gb.style.top = x.toString() + "px";
-if(x0!=xf){setTimeout("moveGB("+x+", "+xf+")", 10);}
-}
-</script>
-
-<div id="gb">
-
-<div class="gbtab" onclick="showHideGB()"> </div>
-
-<div class="gbcontent">
-
-<div style="text-align:right">
-<a href="javascript:showHideGB()">
-.:[Close][Klik 2x]:.
-</a>
-</div>
-<center>
 <script type='text/javascript' src='//appraisalaffable.com/f1/35/46/f1354639a89df9ad9e3b1e598234298f.js'></script>
 <script type='text/javascript' src='//appraisalaffable.com/13/64/ec/1364ec725958376074acf8c8b3fcbe4f.js'></script>
-</center>
-
-<script type="text/javascript">
-var gb = document.getElementById("gb");
-gb.style.center = (30-gb.offsetWidth).toString() + "px";
-</script></div></div>
 	</header>
 	<main>
 		<section>
